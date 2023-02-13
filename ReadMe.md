@@ -164,12 +164,9 @@ userId String
 ```Bash
 import React, { FormEvent } from 'react'
 import { Helmet } from 'react-helmet'
-import { RegisterOptions, SubmitHandler, FieldErrors } from 'react-
-hook-
-form'
+import { RegisterOptions, SubmitHandler, FieldErrors } from 'react-hook-form'
 import ButtonMain from '../../../../Components/Button/Main'
-import FormMain, { FormMainGroup } from '../../../../Components/Form
-/Main'
+import FormMain, { FormMainGroup } from '../../../../Components/Form/Main'
 import Recaptcha from '../../../../Components/Security/Recaptcha'
 import BannerMain from '../../../Widget/Banner/Main'
 
@@ -211,9 +208,9 @@ const [loading, setLoading] = useState(true)
 // Hook Declarations
 const history = useHistory()
 const dispatch = useDispatch()
-const { register, errors, handleSubmit, clearErrors, control } =
-useForm()
+const { register, errors, handleSubmit, clearErrors, control } = useForm()
 const { id } = useParams()
+
 // Variables
 const userId = parseInt(usersId, 10)
 const productPriceId = parseInt(productPrice, 10)
