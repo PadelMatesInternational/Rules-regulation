@@ -276,4 +276,4 @@ General:
 - Names must be descriptive and clear to any developer. Do not use abbreviations, shortcuts, or unfamiliar words so anyone else working in the same code can understand it easily.
 - Use CONSTANT_CASE whenever declaring any global constant values such as Action Types, Environment Variables, etc.
 - Do not leave more than a single line break between the codes, unless there is a solid reason for it.
-# Rules-regulation
+
